@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/maye
+    username: maye
+    password: maye123
+  jpa:
+    hibernate:
+      ddl-auto: update # Adjust as needed (create, update, validate, none)
+    properties:
+      hibernate.default_schema: maye
